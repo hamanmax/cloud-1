@@ -1,0 +1,46 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+# the first two lines are modeling for vim or emacs in case you are using them
+# read more : https://vim.fandom.com/wiki/Modeline_magic and http://www.gnu.org/software/emacs/manual/html_node/emacs/Choosing-Modes.html
+
+
+Vagrant.configure("2") do |config|
+
+  config.vm.box = "bento/debian-11.4"
+  config.vm.box_version = "202207.19.0"
+	config.vm.provider "virtualbox" do |v|
+		v.memory = 4096
+    v.customize ["modifyvm", :id, "--uart1", "0x3F8", "4"]
+    v.customize ["modifyvm", :id, "--uartmode1", "file", File::NULL]
+		v.cpus = 6
+end
+
+	config.vm.define 'ansible.vm.1' do |master|
+		master.vm.hostname = 'ansible.vm.1'
+		master.vm.network :private_network, ip: '192.168.42.110'
+		master.vm.network "forwarded_port", guest: 443, host: 8080
+		master.vm.provider "virtualbox" do |v|
+			v.name = 'ansible.vm.1'
+			end
+		master.vm.synced_folder ".", "/vagrant", type: "virtualbox", SharedFoldersEnableSymlinksCreate: true
+		master.vm.provision "file", source:"~/.ssh/id_rsa.pub", destination: "/tmp/id_rsa.pub"
+		master.vm.provision "shell", inline: <<-SHELL
+			cat /tmp/id_rsa.pub >> /home/vagrant/.ssh/authorized_keys
+			rm /tmp/id_rsa.pub
+		SHELL
+	end
+	config.vm.define 'ansible.vm.2' do |worker|
+		worker.vm.hostname = 'ansible.vm.2'
+		worker.vm.network :private_network, ip: '192.168.42.111'
+		worker.vm.network "forwarded_port", guest: 443, host: 8081
+		worker.vm.provision "file", source:"~/.ssh/id_rsa.pub", destination: "/tmp/id_rsa.pub"
+		worker.vm.provision "shell", inline: <<-SHELL
+			cat /tmp/id_rsa.pub >> /home/vagrant/.ssh/authorized_keys
+			rm /tmp/id_rsa.pub
+		SHELL
+		worker.vm.provider "virtualbox" do |v|
+			v.name = 'ansible.vm.2'
+		end
+		config.vm.synced_folder ".", "/vagrant", type: "virtualbox", SharedFoldersEnableSymlinksCreate: true
+	end
+end

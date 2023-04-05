@@ -1,0 +1,728 @@
+# Translation of Themes - Qi in French (France)
+# This file is distributed under the same license as the Themes - Qi package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-10-06 07:01:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Qi\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Qi theme is the latest free offering developed by Qode Interactive, winners of multiple awards and accolades in the fields of web design and development and one of bestselling WordPress theme creators. We approached Qi the same way we do when we develop premium themes - this means that the theme features comprehensive modules for your portfolio, shop, blog, a beautiful selection of contemporary premade inner page templates great for a wide array of purposes, and all the options and functionalities you may ever need to set up a professional website the easy way. Qi theme features 100 beautifully designed starter sites for all types of modern websites. Alongside stunningly designed websites for all types of businesses including spa, beauty salon, medical, SaaS, marketing, gym, and dentist websites, just to name a few, Qi also has a huge collection of sites great for personal uses. Do you wish to create a new CV or a resume, or perhaps you are a restaurant owner, a videographer or an SEO expert? Or maybe you’re just looking for a captivating yet simple way to announce your wedding? Whatever it might be, Qi has you covered! Top all this off with the authentic design style that Qode Interactive collective is known for, and you get a true creative powerhouse that’s fast, reliable and comes with virtually limitless customization options!"
+msgstr "Le thème Qi est la dernière offre gratuite développée par Qode Interactive, lauréat de plusieurs prix et récompenses dans les domaines de la conception et du développement web et l’un des créateurs de thèmes WordPress les plus vendus. Nous avons abordé Qi de la même manière que nous le faisons lorsque nous développons des thèmes premium - cela signifie que le thème comporte des modules complets pour votre portfolio, votre boutique, votre blog, une belle sélection de modèles de pages intérieures contemporaines pré-fabriquées parfaites pour un large éventail d’objectifs, et toutes les options et fonctionnalités dont vous pourriez avoir besoin pour mettre en place un site professionnel de manière simple. Le thème Qi propose 100 sites de démarrage magnifiquement conçus pour tous les types de sites modernes. En plus des sites magnifiquement conçus pour tous les types d’entreprises, y compris les sites de spa, de salon de beauté, de médecine, de SaaS, de marketing, de gymnase et de dentiste, pour n’en citer que quelques-uns, Qi dispose également d’une énorme collection de sites parfaits pour les usages personnels. Vous souhaitez créer un nouveau CV, ou peut-être êtes-vous restaurateur, vidéaste ou expert en SEO ? Ou peut-être cherchez-vous simplement un moyen simple et captivant d’annoncer votre mariage ? Quoi qu’il en soit, Qi a tout ce qu’il vous faut ! Complétez tout cela avec le style de conception authentique qui a fait connaître Qode Interactive collective, et vous obtenez une véritable centrale créative qui est rapide, fiable et est livré avec des options de personnalisation pratiquement illimitée !"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Qi"
+msgstr "Qi"
+
+#: functions.php:300
+msgctxt "Theme starter content"
+msgid "Meta"
+msgstr "Méta"
+
+#: functions.php:292
+msgctxt "Theme starter content"
+msgid "Archives"
+msgstr "Archives"
+
+#: functions.php:284
+msgctxt "Theme starter content"
+msgid "Recent Posts"
+msgstr "Articles récents"
+
+#: functions.php:276
+msgctxt "Theme starter content"
+msgid "Recent Comments"
+msgstr "Commentaires récents"
+
+#: functions.php:268
+msgctxt "Theme starter content"
+msgid "Categories"
+msgstr "Catégories"
+
+#: functions.php:258
+msgctxt "Theme starter content"
+msgid "This may be a good place to introduce yourself and your site or include some credits."
+msgstr "Cela peut être un bon endroit pour vous présenter vous et votre site ou inclure des crédits."
+
+#: functions.php:257
+msgctxt "Theme starter content"
+msgid "About This Site"
+msgstr "À propos de ce site"
+
+#: functions.php:242
+msgid "Primary Navigation"
+msgstr "Navigation principale"
+
+#: functions.php:231
+msgctxt "Theme starter content"
+msgid "Logo"
+msgstr "Logo"
+
+#: searchform.php:8
+msgid "Search"
+msgstr "Rechercher"
+
+#: searchform.php:6
+msgid "search for:"
+msgstr "rechercher :"
+
+#. Template Name of the theme
+msgid "Qi Landing"
+msgstr "Qi Atterrissage"
+
+#. Template Name of the theme
+msgid "Qi Full Width"
+msgstr "Qi Pleine largeur"
+
+#: inc/woocommerce/helper.php:248
+msgid "Very poor"
+msgstr "Très mauvais"
+
+#: inc/woocommerce/helper.php:247
+msgid "Not that bad"
+msgstr "Pas mal"
+
+#: inc/woocommerce/helper.php:246
+msgid "Average"
+msgstr "Moyen"
+
+#: inc/woocommerce/helper.php:245
+msgid "Good"
+msgstr "Bon"
+
+#: inc/woocommerce/helper.php:244
+msgid "Perfect"
+msgstr "Parfait"
+
+#: inc/woocommerce/helper.php:243
+msgid "Rate&hellip;"
+msgstr "Note&hellip;"
+
+#: inc/woocommerce/helper.php:240
+msgid "Your Rating "
+msgstr "Votre note "
+
+#: inc/woocommerce/helper.php:148 inc/woocommerce/helper.php:190
+msgid "Shop"
+msgstr "Boutique"
+
+#: inc/title/helper.php:62
+msgid "404 - Page not found"
+msgstr "404 - Page non trouvée"
+
+#: inc/title/helper.php:60
+msgid "Search results for: "
+msgstr "Résultats de recherche pour : "
+
+#: inc/title/helper.php:58
+msgid "Archive"
+msgstr "Archive"
+
+#: inc/title/helper.php:54
+msgid "Author: "
+msgstr "Auteur : "
+
+#: inc/title/helper.php:50
+msgid " Tag"
+msgstr " Étiquette"
+
+#: inc/search/templates/parts/search-form.php:6
+msgid "If you are not happy with the results below please do another search"
+msgstr "Si vous n’êtes pas satisfait des résultats ci-dessous, vous pouvez lancer une autre recherche"
+
+#: inc/search/templates/parts/search-form.php:2
+msgid "New search:"
+msgstr "Nouvelle recherche :"
+
+#: inc/qode-essential-addons/class-qodeessentialaddons-installation-notice.php:134
+msgid "Activated"
+msgstr "Activée"
+
+#: inc/qode-essential-addons/class-qodeessentialaddons-installation-notice.php:127
+msgid "Installed and activated"
+msgstr "Installée et activée"
+
+#: inc/qode-essential-addons/class-qodeessentialaddons-installation-notice.php:61
+msgid "Installing..."
+msgstr "Installation…"
+
+#: inc/qode-essential-addons/class-qodeessentialaddons-installation-notice.php:61
+msgid "Activating..."
+msgstr "Activation…"
+
+#. translators: %s: <strong> <a>
+#: inc/qode-essential-addons/class-qodeessentialaddons-installation-notice.php:59
+msgid "Install %1$sQode Essential Addons%2$s to launch an optimized design in minutes."
+msgstr "Installez %1$sQode Essential Addons%2$s pour lancer un design optimisé en quelques minutes."
+
+#: inc/qode-essential-addons/class-qodeessentialaddons-installation-notice.php:58
+msgid "Thanks for choosing QI Theme!"
+msgstr "Merci d’avoir choisi QI Theme !"
+
+#: inc/qode-essential-addons/class-qodeessentialaddons-installation-notice.php:49
+msgid "Activate Qode Essential Addons"
+msgstr "Activer les modules Qode Essential"
+
+#: inc/qode-essential-addons/class-qodeessentialaddons-installation-notice.php:46
+msgid "Install Qode Essential Addons"
+msgstr "Installer les modules Qode Essential"
+
+#: inc/pagination/helper.php:10
+msgid "Pages: "
+msgstr "Pages : "
+
+#: inc/nav-menu/helper.php:65
+msgid "Show sub menu"
+msgstr "Afficher le sous-menu"
+
+#: inc/mobile-header/templates/parts/mobile-navigation.php:2
+msgid "Mobile Menu"
+msgstr "Menu mobile"
+
+#: inc/mobile-header/templates/parts/mobile-navigation-opener.php:2
+#: inc/nav-menu/helper.php:65
+msgid "Open the menu"
+msgstr "Ouvrir le menu"
+
+#: inc/mobile-header/helper.php:20
+msgid "Mobile Navigation"
+msgstr "Navigation mobile"
+
+#: inc/import/class-qi-import.php:782
+msgid "Import Qi demos with ease"
+msgstr "Importez facilement des démos Qi"
+
+#: inc/import/class-qi-import.php:141
+msgid "Patisserie"
+msgstr "Patisserie"
+
+#: inc/import/class-qi-import.php:140
+msgid "Interior Design"
+msgstr "Aménagement intérieur"
+
+#: inc/import/class-qi-import.php:139
+msgid "Wedding Photography"
+msgstr "Photographie de mariage"
+
+#: inc/import/class-qi-import.php:138
+msgid "Oil Industry"
+msgstr "Industrie pétrolière"
+
+#: inc/import/class-qi-import.php:137
+msgid "Art Gallery"
+msgstr "Galerie d’art"
+
+#: inc/import/class-qi-import.php:136
+msgid "Personal Portfolio"
+msgstr "Portfolio personnel"
+
+#: inc/import/class-qi-import.php:135
+msgid "Movie Portfolio"
+msgstr "Portfolio de films"
+
+#: inc/import/class-qi-import.php:134
+msgid "Makeup"
+msgstr "Cosmétiques"
+
+#: inc/import/class-qi-import.php:133
+msgid "Modeling Agency"
+msgstr "Agence de mannequins"
+
+#: inc/import/class-qi-import.php:132
+msgid "Environmental NGO"
+msgstr "Association ONG"
+
+#: inc/import/class-qi-import.php:131
+msgid "Art Shop"
+msgstr "Boutique d’art"
+
+#: inc/import/class-qi-import.php:130
+msgid "Agency One Page"
+msgstr "Agence 1 page"
+
+#: inc/import/class-qi-import.php:129
+msgid "Branding Portfolio"
+msgstr "Portfolio de marque"
+
+#: inc/import/class-qi-import.php:128
+msgid "Baby Store"
+msgstr "Boutique pour bébés"
+
+#: inc/import/class-qi-import.php:127
+msgid "Boutique"
+msgstr "Boutique"
+
+#: inc/import/class-qi-import.php:126
+msgid "Concept Art Portfolio"
+msgstr "Portfolio d’art conceptuel"
+
+#: inc/import/class-qi-import.php:125
+msgid "Interactive Photography"
+msgstr "Photographie interactive"
+
+#: inc/import/class-qi-import.php:124
+msgid "Wedding Venue"
+msgstr "Lieu de mariage"
+
+#: inc/import/class-qi-import.php:123
+msgid "SaaS"
+msgstr "SaaS"
+
+#: inc/import/class-qi-import.php:122
+msgid "Barber"
+msgstr "Barbier"
+
+#: inc/import/class-qi-import.php:121
+msgid "Fast Food"
+msgstr "Restauration rapide"
+
+#: inc/import/class-qi-import.php:120
+msgid "Tech Agency"
+msgstr "Agence technique"
+
+#: inc/import/class-qi-import.php:119
+msgid "Tailor"
+msgstr "Tailleur"
+
+#: inc/import/class-qi-import.php:118
+msgid "Garden Design"
+msgstr "Conception de jardin"
+
+#: inc/import/class-qi-import.php:117
+msgid "Hair Salon"
+msgstr "Salon de coiffure"
+
+#: inc/import/class-qi-import.php:116
+msgid "Skincare"
+msgstr "Soins de la peau"
+
+#: inc/import/class-qi-import.php:115
+msgid "Veterinarian"
+msgstr "Vétérinaire"
+
+#: inc/import/class-qi-import.php:114
+msgid "CV"
+msgstr "CV"
+
+#: inc/import/class-qi-import.php:113
+msgid "Day Care"
+msgstr "Soins de jour"
+
+#: inc/import/class-qi-import.php:112
+msgid "Photographer"
+msgstr "Photographe"
+
+#: inc/import/class-qi-import.php:111
+msgid "Writer"
+msgstr "Rédacteur"
+
+#: inc/import/class-qi-import.php:110
+msgid "Organic Food"
+msgstr "Alimentation biologique"
+
+#: inc/import/class-qi-import.php:109
+msgid "Movie Presentation"
+msgstr "Présentation de film"
+
+#: inc/import/class-qi-import.php:108
+msgid "Clothing Store"
+msgstr "Boutique de vêtements"
+
+#: inc/import/class-qi-import.php:107
+msgid "Health Center"
+msgstr "Centre médical"
+
+#: inc/import/class-qi-import.php:106
+msgid "Bed and Breakfast"
+msgstr "Chambre et petit déjeuner"
+
+#: inc/import/class-qi-import.php:105
+msgid "Sports"
+msgstr "Sports"
+
+#: inc/import/class-qi-import.php:104
+msgid "Wedding Announcement"
+msgstr "Annonce de mariage"
+
+#: inc/import/class-qi-import.php:103
+msgid "Flower Arrangement"
+msgstr "Arrangement floral"
+
+#: inc/import/class-qi-import.php:102
+msgid "Packaging Design"
+msgstr "Conception d’emballages"
+
+#: inc/import/class-qi-import.php:101
+msgid "Café & Restaurant"
+msgstr "Café et restaurant"
+
+#: inc/import/class-qi-import.php:100
+msgid "SEO Company"
+msgstr "Société SEO"
+
+#: inc/import/class-qi-import.php:99
+msgid "Agency Dark"
+msgstr "Agence sombre"
+
+#: inc/import/class-qi-import.php:98
+msgid "Travel Agency"
+msgstr "Agence de voyages"
+
+#: inc/import/class-qi-import.php:97
+msgid "Laundry Service"
+msgstr "Service de blanchisserie"
+
+#: inc/import/class-qi-import.php:96
+msgid "Car Rental"
+msgstr "Location de voiture"
+
+#: inc/import/class-qi-import.php:95
+msgid "Gym"
+msgstr "Salle de sport"
+
+#: inc/import/class-qi-import.php:94
+msgid "Fashion Store"
+msgstr "Boutique de mode"
+
+#: inc/import/class-qi-import.php:93
+msgid "Transport"
+msgstr "Transport"
+
+#: inc/import/class-qi-import.php:92
+msgid "Product Photography"
+msgstr "Photographie de produits"
+
+#: inc/import/class-qi-import.php:91
+msgid "Ice Cream"
+msgstr "Crème glacée"
+
+#: inc/import/class-qi-import.php:90
+msgid "Agency Creative"
+msgstr "Agence créative"
+
+#: inc/import/class-qi-import.php:89
+msgid "Wellness"
+msgstr "Bien-être"
+
+#: inc/import/class-qi-import.php:88
+msgid "Beauty Store"
+msgstr "Boutique de beauté"
+
+#: inc/import/class-qi-import.php:87
+msgid "School"
+msgstr "École"
+
+#: inc/import/class-qi-import.php:86
+msgid "Video Showcase"
+msgstr "Vitrine vidéo"
+
+#: inc/import/class-qi-import.php:85
+msgid "Movie Dark"
+msgstr "Film sombre"
+
+#: inc/import/class-qi-import.php:84
+msgid "Cocktail Bar"
+msgstr "Bar à cocktails"
+
+#: inc/import/class-qi-import.php:83
+msgid "3D Modeling Studio"
+msgstr "Studio de modélisation 3D"
+
+#: inc/import/class-qi-import.php:82
+msgid "Photography Portfolio"
+msgstr "Portfolio photographie"
+
+#: inc/import/class-qi-import.php:81
+msgid "Law Firm"
+msgstr "Cabinet d’avocats"
+
+#: inc/import/class-qi-import.php:80
+msgid "Architecture Studio"
+msgstr "Atelier d’architecture"
+
+#: inc/import/class-qi-import.php:79
+msgid "Furniture"
+msgstr "Ameublement"
+
+#: inc/import/class-qi-import.php:78
+msgid "Agency"
+msgstr "Agence"
+
+#: inc/import/class-qi-import.php:77
+msgid "Cake Shop"
+msgstr "Pâtisserie"
+
+#: inc/import/class-qi-import.php:76
+msgid "Seafood Restaurant"
+msgstr "Restaurant de fruits de mer"
+
+#: inc/import/class-qi-import.php:75
+msgid "Design Agency"
+msgstr "Agence de design"
+
+#: inc/import/class-qi-import.php:74
+msgid "Illustration Portfolio"
+msgstr "Portfolio d’illustrations"
+
+#: inc/import/class-qi-import.php:73
+msgid "Videographer"
+msgstr "Vidéaste"
+
+#: inc/import/class-qi-import.php:72
+msgid "Yoga Studio"
+msgstr "Cours de yoga"
+
+#: inc/import/class-qi-import.php:71
+msgid "Web Studio"
+msgstr "Studio web"
+
+#: inc/import/class-qi-import.php:70
+msgid "Dog Walker"
+msgstr "Promeneur de chiens"
+
+#: inc/import/class-qi-import.php:69
+msgid "Delivery"
+msgstr "Livraison"
+
+#: inc/import/class-qi-import.php:68
+msgid "Movie"
+msgstr "Film"
+
+#: inc/import/class-qi-import.php:67
+msgid "3D Modeling Portfolio"
+msgstr "Portfolio de modélisation 3D"
+
+#: inc/import/class-qi-import.php:66
+msgid "Wedding Invitation"
+msgstr "Invitation de mariage"
+
+#: inc/import/class-qi-import.php:65
+msgid "Creative Studio"
+msgstr "Studio de création"
+
+#: inc/import/class-qi-import.php:64
+msgid "Interior Design Shop"
+msgstr "Boutique de décoration intérieure"
+
+#: inc/import/class-qi-import.php:63
+msgid "Web Agency"
+msgstr "Agence web"
+
+#: inc/import/class-qi-import.php:62
+msgid "Digital Agency"
+msgstr "Agence numérique"
+
+#: inc/import/class-qi-import.php:61
+msgid "Manicure"
+msgstr "Manucure"
+
+#: inc/import/class-qi-import.php:60
+msgid "Jewelry Store"
+msgstr "Bijouterie"
+
+#: inc/import/class-qi-import.php:59
+msgid "Toy Shop"
+msgstr "Boutique de jouets"
+
+#: inc/import/class-qi-import.php:58
+msgid "Sports Shop"
+msgstr "Boutique de sport"
+
+#: inc/import/class-qi-import.php:57
+msgid "App Showcase"
+msgstr "Vitrine d’application"
+
+#: inc/import/class-qi-import.php:56
+msgid "Nutritionist"
+msgstr "Nutritionniste"
+
+#: inc/import/class-qi-import.php:55
+msgid "Vehicle Rental"
+msgstr "Location de véhicules"
+
+#: inc/import/class-qi-import.php:54
+msgid "Product Presentation"
+msgstr "Présentation de produit"
+
+#: inc/import/class-qi-import.php:53
+msgid "Bakery"
+msgstr "Boulangerie"
+
+#: inc/import/class-qi-import.php:52
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: inc/import/class-qi-import.php:51
+msgid "Translation Company"
+msgstr "Entreprise de traduction"
+
+#: inc/import/class-qi-import.php:50
+msgid "SEO Agency"
+msgstr "Agence SEO"
+
+#: inc/import/class-qi-import.php:49
+msgid "Party Planner"
+msgstr "Planification des fêtes"
+
+#: inc/import/class-qi-import.php:48
+msgid "Dentist"
+msgstr "Dentiste"
+
+#: inc/import/class-qi-import.php:47
+msgid "Coworking Space"
+msgstr "Espace de co-working"
+
+#: inc/import/class-qi-import.php:46
+msgid "Digital Studio"
+msgstr "Studio numérique"
+
+#: inc/import/class-qi-import.php:45
+msgid "Branding Agency"
+msgstr "Agence de marque"
+
+#: inc/import/class-qi-import.php:44
+msgid "Wedding"
+msgstr "Mariage"
+
+#: inc/import/class-qi-import.php:43
+msgid "Construction"
+msgstr "Construction"
+
+#: inc/import/class-qi-import.php:42
+msgid "Creative Agency"
+msgstr "Agence de création"
+
+#: inc/import/class-qi-import.php:38
+msgid "ProfilePress"
+msgstr "ProfilePress"
+
+#: inc/import/class-qi-import.php:37
+msgid "WPForms Lite"
+msgstr "WPForms Lite"
+
+#: inc/import/class-qi-import.php:36
+msgid "Smash Balloon Social Post Feed"
+msgstr "Smash Balloon Social Post Feed"
+
+#: inc/import/class-qi-import.php:35
+msgid "Custom Twitter Feeds"
+msgstr "Custom Twitter Feeds"
+
+#: inc/import/class-qi-import.php:34
+msgid "Smash Balloon Social Photo Feed"
+msgstr "Smash Balloon Social Photo Feed"
+
+#: inc/import/class-qi-import.php:33
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/import/class-qi-import.php:32
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: inc/import/class-qi-import.php:31
+msgid "Qi Addons For Elementor"
+msgstr "Qi Addons For Elementor"
+
+#: inc/import/class-qi-import.php:30
+msgid "Elementor"
+msgstr "Elementor"
+
+#: inc/header/templates/parts/navigation.php:2
+msgid "Top Menu"
+msgstr "Menu du haut"
+
+#: inc/header/helper.php:20
+msgid "Main Navigation"
+msgstr "Navigation principale"
+
+#. translators: %s - added sidebar description increment value
+#: inc/footer/helper.php:100
+msgid "Widgets added here will appear in the %s column of bottom footer area"
+msgstr "Les widgets ajoutés ici apparaîtront dans la colonne de %s de la zone en bas du pied de page"
+
+#. translators: %s - added sidebar title increment value
+#: inc/footer/helper.php:98
+msgid "Footer Bottom Area - Column %s"
+msgstr "Zone en bas du pied de page - Colonne %s"
+
+#. translators: %s - added sidebar description increment value
+#: inc/footer/helper.php:90
+msgid "Widgets added here will appear in the %s column of top footer area"
+msgstr "Les widgets ajoutés ici apparaîtront dans la colonne de %s de la zone en haut du pied de page"
+
+#. translators: %s - added sidebar title increment value
+#: inc/footer/helper.php:88
+msgid "Footer Top Area - Column %s"
+msgstr "Zone en haut du pied de page - Colonne %s"
+
+#: inc/content/templates/parts/posts-not-found.php:1
+msgid "No posts were found for provided query parameters."
+msgstr "Aucun article n’a été trouvé pour les paramètres de requête fournis."
+
+#: inc/contact-form-7/helper.php:35
+msgid "Send"
+msgstr "Envoyer"
+
+#: inc/comments/templates/comments.php:27
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: inc/comments/helper.php:116 inc/comments/templates/comments.php:6
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "Commentaire"
+msgstr[1] "Commentaires"
+
+#: inc/blog/templates/parts/post-info/read-more.php:19
+#: inc/qode-essential-addons/blog/templates/parts/post-info/read-more.php:19
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: inc/blog/templates/parts/post-info/read-more.php:10
+#: inc/qode-essential-addons/blog/templates/parts/post-info/read-more.php:10
+msgid "Continue reading"
+msgstr "Continuer la lecture"
+
+#: inc/blog/templates/parts/post-info/author.php:3
+msgid "by"
+msgstr "par"
+
+#: inc/blog/templates/author-info/templates/author.php:8
+msgid "Author"
+msgstr "Auteur"
+
+#. translators: %s - added br HTML tag inside text content
+#: inc/404/templates/404-content.php:7
+msgid "Oops! The page you are looking for does not exist. %sIt might have been moved or deleted."
+msgstr "Oups ! La page que vous recherchez n’existe pas. %sElle a peut-être été déplacée ou supprimée."
+
+#: inc/404/templates/404-content.php:2
+msgid "404 - The page is not here."
+msgstr "404 - La page n’est pas là."
+
+#: functions.php:110
+msgid "Skip to the content"
+msgstr "Aller au contenu"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://qodeinteractive.com"
+msgstr "https://qodeinteractive.com"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Qode Interactive"
+msgstr "Qode Interactive"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://qodeinteractive.com/qi-theme"
+msgstr "https://qodeinteractive.com/qi-theme"

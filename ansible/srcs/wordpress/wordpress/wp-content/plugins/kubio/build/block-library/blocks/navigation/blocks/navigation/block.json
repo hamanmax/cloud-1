@@ -1,0 +1,72 @@
+{
+	"name": "kubio/navigation",
+	"category": "kubio-layout",
+	"attributes": {
+		"kubio": {
+			"type": "object"
+		},
+		"anchor": {
+			"type": "string"
+		},
+		"attrs": {
+			"type": "object"
+		}
+	},
+	"supports": {
+		"kubio": {
+			"elementsEnum": {
+				"NAVIGATION_CONTAINER": "outer",
+				"NAVIGATION_SECTION": "section"
+			},
+			"elementsByName": {
+				"outer": {
+					"wrapper": true,
+					"props": {
+						"className": []
+					}
+				},
+				"section": {
+					"ancestor": "sticky",
+					"default": true,
+					"selector": ".wp-block-kubio-navigation-section__nav"
+				}
+			},
+			"template": {
+				"type": "element",
+				"props": {
+					"name": "outer"
+				},
+				"children": [
+					{
+						"type": "wp:InnerBlocks"
+					}
+				]
+			},
+			"default": {
+				"style": {
+					"descendants": {
+						"section": {
+							"animation": {
+								"duration": {
+									"unit": "s",
+									"value": 0.5
+								}
+							}
+						}
+					}
+				},
+				"props": {
+					"width": "boxed",
+					"verticalAlign": "center",
+					"overlap": false,
+					"sticky": false,
+					"stickyStartAt": "immediately",
+					"animation": {
+						"name": "slideDown"
+					}
+				}
+			}
+		},
+		"multiple": false
+	}
+}

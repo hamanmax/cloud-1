@@ -1,0 +1,12 @@
+Log created: 2022-10-16T00:14:31.254144000Z
+Process ID:  64560 (0xfc30)
+Parent PID:  1 (0x1)
+Executable:  /usr/lib/virtualbox/VBoxHeadless
+Arg[0]: /usr/lib/virtualbox/VBoxHeadless
+Arg[1]: --comment
+Arg[2]: ansible.vm.1
+Arg[3]: --startvm
+Arg[4]: 10b96025-3ba1-4658-bf18-18a9de28de61
+Arg[5]: --vrde
+Arg[6]: config
+AddRef: illegal refcnt=3221225469 state=2

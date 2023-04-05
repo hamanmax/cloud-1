@@ -1,0 +1,67 @@
+---
+- name: Installation docker
+  hosts: server
+  remote_user: vagrant
+  become: yes
+
+  tasks:
+    - name: Mise a jour des packets apt et installations des dependances
+      apt:
+        update_cache: yes
+        pkg:
+        - vim
+        - git
+        - ca-certificates
+        - curl
+        - gnupg
+        - lsb-release
+        - python3-docker
+        - python3-venv
+        - python3-pip
+
+    - name: Add Docker GPG apt Key
+      apt_key:
+        url: https://download.docker.com/linux/ubuntu/gpg
+        state: present
+
+    - name: Add Docker Repository
+      apt_repository:
+        repo: deb https://download.docker.com/linux/ubuntu focal stable
+        state: present
+
+    - name: Update apt and install docker-ce
+      apt:
+        pkg:
+        - docker-ce
+        - docker-ce-cli
+        - containerd.io
+        - docker-compose-plugin
+        update_cache: true
+
+- name: Copie des fichiers de configuration
+  hosts: server
+  remote_user: vagrant
+  become: yes
+
+  tasks:
+    - name: Copie des fichiers
+      synchronize:
+        src: srcs
+        dest: /home/vagrant/
+
+- name: Lancement du docker-compose
+  hosts: server
+  remote_user: vagrant
+  become: yes
+
+  tasks:
+    - name: Install docker-compose python package
+      ansible.builtin.pip:
+        name: docker-compose
+
+    - name: deploy Docker Compose stack
+      community.docker.docker_compose:
+        project_src: /home/vagrant/srcs
+        files:
+        - docker-compose.yml
+...

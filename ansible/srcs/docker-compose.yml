@@ -1,0 +1,46 @@
+version: '3.9'
+services:
+  nginx:
+    build: nginx
+    image: nginx:local
+    container_name: Nginx
+    volumes:
+      - wpdata:/var/www/wordpress
+      - phpmyadmin:/var/www/phpmyadmin
+    ports:
+      - 443:443
+    restart: always
+
+  wordpress:
+    build: wordpress
+    image: wordpress:local
+    container_name: Wordpress
+    volumes:
+      - wpdata:/var/www/wordpress
+    restart: always
+
+  phpmyadmin:
+    build: phpmyadmin
+    image: phpmyadmin:local
+    container_name: Phpmyadmin
+    volumes:
+      - phpmyadmin:/var/www/phpmyadmin
+    restart: always
+
+  mariadb:
+    build:
+      context: mariadb
+      args:
+        - MYSQLROOTPASSWORD=${MYSQLROOTPASSWORD}
+        - MYSQLWPUSER=${MYSQLWPUSER}
+        - MYSQLWPDATABASE=${MYSQLWPDATABASE}
+        - MYSQLWPPASSWORD=${MYSQLWPPASSWORD}
+        - MYSQLHOSTNAME=${MYSQLHOSTNAME}
+        - SUPERUSERPASSWORD=${SUPERUSERPASSWORD}
+        - USERPASSWORD=${USERPASSWORD}
+    image: mariadb:local
+    container_name: Mariadb
+    restart: always
+volumes:
+  wpdata:
+  phpmyadmin:
